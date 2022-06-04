@@ -19,20 +19,27 @@ module.exports = {
     .setStyle("LINK")
     .setURL(`https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=36768832&scope=applications.commands%20bot`),
     new MessageButton()
-    .setLabel("GitHub")
+    .setLabel("GitHub 1")
     .setStyle("LINK")
-    .setURL("https://github.com/brblacky/lavamusic"),
+    .setURL("https://github.com/micky0singh"),
     new MessageButton()
-    .setLabel("Support")
+    .setLabel("GitHub 2")
     .setStyle("LINK")
-    .setURL("https://discord.gg/gfcv94hDhv")
+    .setURL("https://github.com/Team-Dark-Developers"),
+    new MessageButton()
+    .setLabel("Support DEMON")
+    .setStyle("LINK")
+    .setURL("https://discord.gg/5gamFREPRW")
+    new MessageButton()
+    .setLabel("Support Gaara")
+    .setStyle("LINK")
+    .setURL("https://discord.gg/zvynSK7Crk")
 			);
-
           const mainPage = new MessageEmbed()
-            .setAuthor({ name: 'LavaMusic', iconURL: 'https://media.discordapp.net/attachments/876035356460462090/888434725235097610/20210820_124325.png'})
-            .setThumbnail('https://media.discordapp.net/attachments/876035356460462090/888434725235097610/20210820_124325.png')
-            .setColor('#303236')
-            .addField('invite lavamusic', `[Here](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=36768832&scope=applications.commands%20bot)`, true)
+            .setAuthor({ name: 'Quality Music', iconURL: 'https://media.discordapp.net/attachments/982363588264091668/982363769151832174/77291977607bc44476c5a8faf4253dee.png'})
+            .setThumbnail('https://media.discordapp.net/attachments/982363588264091668/982363769151832174/77291977607bc44476c5a8faf4253dee.png')
+            .setColor('#00FFFF')
+            .addField('Invite Quality Music', `[Here](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=36768832&scope=applications.commands%20bot)`, true)
            message.reply({embeds: [mainPage], components: [row]})
     }
 }
