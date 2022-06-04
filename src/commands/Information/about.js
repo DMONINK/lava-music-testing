@@ -36,7 +36,7 @@ module.exports = {
 			);
 
       const mainPage = new MessageEmbed()
-            .setAuthor({ name: 'LavaMusic', iconURL: 'https://media.discordapp.net/attachments/982363588264091668/982363769151832174/77291977607bc44476c5a8faf4253dee.png'})
+            .setAuthor({ name: 'Quality Music', iconURL: 'https://media.discordapp.net/attachments/982363588264091668/982363769151832174/77291977607bc44476c5a8faf4253dee.png'})
             .setThumbnail('https://media.discordapp.net/attachments/982363588264091668/982363769151832174/77291977607bc44476c5a8faf4253dee.png')
             .setColor('#00FFFF')
             .addField('Creator', '<@612803327675334673> & <@730424922639302693>', true)
