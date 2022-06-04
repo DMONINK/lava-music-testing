@@ -27,10 +27,6 @@ module.exports = {
     .setStyle("LINK")
     .setURL("https://github.com/Team-Dark-Developers"),
     new MessageButton()
-    .setLabel("Support DEMON")
-    .setStyle("LINK")
-    .setURL("https://discord.gg/5gamFREPRW"),
-    new MessageButton()
     .setLabel("Support Gaara")
     .setStyle("LINK")
     .setURL("https://discord.gg/zvynSK7Crk")
