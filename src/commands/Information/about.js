@@ -18,25 +18,30 @@ module.exports = {
     .setStyle("LINK")
     .setURL(`https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=36768832&scope=applications.commands%20bot`),
     new MessageButton()
-    .setLabel("GitHub")
+    .setLabel("GitHub 1")
     .setStyle("LINK")
-    .setURL("https://github.com/brblacky/lavamusic"),
+    .setURL("https://github.com/micky0singh"),
     new MessageButton()
-    .setLabel("Support")
+    .setLabel("GitHub 2")
     .setStyle("LINK")
-    .setURL("https://discord.gg/gfcv94hDhv")
+    .setURL("https://github.com/Team-Dark-Developers"),
+    new MessageButton()
+    .setLabel("Support DEMON")
+    .setStyle("LINK")
+    .setURL("https://discord.gg/5gamFREPRW")
+    new MessageButton()
+    .setLabel("Support Gaara")
+    .setStyle("LINK")
+    .setURL("https://discord.gg/zvynSK7Crk")
 			);
 
       const mainPage = new MessageEmbed()
-            .setAuthor({ name: 'LavaMusic', iconURL: 'https://media.discordapp.net/attachments/876035356460462090/888434725235097610/20210820_124325.png'})
-            .setThumbnail('https://media.discordapp.net/attachments/876035356460462090/888434725235097610/20210820_124325.png')
-            .setColor('#303236')
-            .addField('Creator', '[Blacky#6618](https://github.com/brblacky) And [Venom#9718](https://github.com/Venom9718/)', true)
-            .addField('Organization', '[Blacky](https://github.com/brblacky)', true)
-            .addField('Repository', '[Here](https://github.com/brblacky/lavamusic)', true)
-            .addField('\u200b',
-                `[LavaMusic](https://github.com/brblacky/lavamusic/) is [Blacky](https://github.com/brblacky) and [Venom](https://github.com/Venom9718)'s Was created by blacky and Venom. He really wants to make his first open source project ever. Because he wants more for coding experience. In this project, he was challenged to make project with less bugs. Hope you enjoy using LavaMusic!`
-            )
+            .setAuthor({ name: 'LavaMusic', iconURL: 'https://media.discordapp.net/attachments/982363588264091668/982363769151832174/77291977607bc44476c5a8faf4253dee.png'})
+            .setThumbnail('https://media.discordapp.net/attachments/982363588264091668/982363769151832174/77291977607bc44476c5a8faf4253dee.png')
+            .setColor('#00FFFF')
+            .addField('Creator', '<@612803327675334673> & <@730424922639302693>', true)
+            .addField('Organization', '[Micky](https://github.com/MickySinghSahni) & [Arya](https://github.com/Arya0077)', true)
+            .addField('Repository', '[Here](https://github.com/micky0singh/Gaara-Bot)', true)
         return message.reply({embeds: [mainPage], components: [row]});
     }
 }
