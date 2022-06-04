@@ -29,7 +29,7 @@ module.exports = {
     new MessageButton()
     .setLabel("Support DEMON")
     .setStyle("LINK")
-    .setURL("https://discord.gg/5gamFREPRW")
+    .setURL("https://discord.gg/5gamFREPRW"),
     new MessageButton()
     .setLabel("Support Gaara")
     .setStyle("LINK")
